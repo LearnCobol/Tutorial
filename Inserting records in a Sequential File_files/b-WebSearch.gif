@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="University of Limerick RSS" href="http://ulsites.ul.ie/csis/rss.xml" />
+<link rel="shortcut icon" href="http://ulsites.ul.ie/csis/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+    <title>University of Limerick</title>
+
+    <meta name="viewport" content="width=device-width">
+
+    <style type="text/css" media="all">
+@import url("http://ulsites.ul.ie/csis/modules/system/system.base.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/modules/system/system.menus.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/modules/system/system.messages.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/modules/system/system.theme.css?omjq9k");
+</style>
+<style type="text/css" media="all">
+@import url("http://ulsites.ul.ie/csis/modules/field/theme/field.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/modules/node/node.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/modules/search/search.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/modules/user/user.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/sites/all/modules/views/css/views.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/sites/all/modules/ckeditor/css/ckeditor.css?omjq9k");
+</style>
+<style type="text/css" media="all">
+@import url("http://ulsites.ul.ie/csis/sites/all/modules/ctools/css/ctools.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/modules/locale/locale.css?omjq9k");
+@import url("http://ulsites.ul.ie/csis/sites/all/modules/print/print_ui/css/print_ui.theme.css?omjq9k");
+</style>
+<style type="text/css" media="all">
+@import url("http://ulsites.ul.ie/csis/themes/ul/css/style.css?omjq9k");
+</style>
+<style type="text/css" media="print">
+@import url("http://ulsites.ul.ie/csis/themes/ul/css/print.css?omjq9k");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://ulsites.ul.ie/csis/themes/ul/css/ie.css?omjq9k" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://ulsites.ul.ie/csis/themes/ul/css/ie6.css?omjq9k" media="all" />
+<![endif]-->
+    <script type="text/javascript" src="http://ulsites.ul.ie/csis/sites/all/libraries/modernizr/modernizr.min.js?omjq9k"></script>
+<script type="text/javascript" src="http://ulsites.ul.ie/csis/sites/all/modules/jquery_update/replace/jquery/1.9/jquery.min.js?v=1.9.1"></script>
+<script type="text/javascript" src="http://ulsites.ul.ie/csis/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://ulsites.ul.ie/csis/misc/drupal.js?omjq9k"></script>
+<script type="text/javascript" src="http://ulsites.ul.ie/csis/sites/all/modules/print_anything/inc/print_anything.js?omjq9k"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/csis\/","pathPrefix":"","ajaxPageState":{"theme":"ul","theme_token":"e6iUm35GadYf5UOPND-ZdcueNtmgrM2WAsUA6V8OEC8","js":{"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/print_anything\/inc\/print_anything.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/locale\/locale.css":1,"sites\/all\/modules\/print\/print_ui\/css\/print_ui.theme.css":1,"themes\/ul\/css\/layout.css":1,"themes\/ul\/css\/style.css":1,"themes\/ul\/css\/colors.css":1,"themes\/ul\/css\/print.css":1,"themes\/ul\/css\/ie.css":1,"themes\/ul\/css\/ie6.css":1}},"print_anything":{"print_page_url":"\/print-friendly-page"}});
+//--><!]]>
+</script>
+    <link rel="stylesheet" href="http://ulsites.ul.ie/csis/themes/ul/css/bootstrap.css">    <script type="text/javascript" src="http://ulsites.ul.ie/csis/themes/ul/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://ulsites.ul.ie/csis/themes/ul/fancybox/jquery.fancybox.css">    <script type="text/javascript" src="http://ulsites.ul.ie/csis/themes/ul/fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="http://ulsites.ul.ie/csis/themes/ul/js/modules.js"></script></head>
+<body class="html front not-logged-in no-sidebars page-node i18n-en" >
+<img src="http://ulsites.ul.ie/csis/themes/ul/images/bg.jpg" class="no-display"/>
+<img src="http://ulsites.ul.ie/csis/themes/ul/images/module_rm.png" alt="arrow" class="no-display"/>
+<div class="container-fluid">
+    <div class="row" id="tophead">
+	<img src="http://ulsites.ul.ie/csis/themes/ul/images/search_icon.png" class="nodisplay" alt="Search icon"/>
+	<div class="col-sm-12">
+		<div class="wrap">
+			<div class="row">
+				<div class="col-sm-5 col-xs-7 left npl">
+					<a href="http://www.ul.ie">
+						<img src="http://ulsites.ul.ie/csis/themes/ul/images/logo.png" alt="University of Limerick"/>
+					</a>
+				</div>
+				<div class="col-sm-7 col-xs-5 right npr">
+					<div class="row">
+						<div class="col-sm-12 col-xs-12 first np">
+							<ul class="pull-right"><li>
+                        <a style="color:#D40000;" href="/csis/?lang=en" title="ENGLISH">ENGLISH</a>
+                      </li><li class="divide">|</li><li>
+                        <a  href="/csis/?lang=ga" title="GAEILGE">GAEILGE</a>
+                      </li></ul>						</div>
+						<div class="col-sm-12 col-xs-12 second np">
+															<div id="topmenu-region">
+									 <div class="region region-topmenu">
+    <div id="block-menu-block-1" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-menu-top-menu parent-mlid-0 menu-level-1">
+  <ul class="mainmenu nav nav-justified"><li class=""><a href="http://www.ul.ie/international" title="">International</a></li>
+<li class=""><a href="http://www.ulaa.ul.ie" title="">Alumni</a></li>
+<li class=""><a href="http://www.ul.ie/portal" title="Find Information relating to Staff and Students">Staff/Students</a></li>
+<li class=""><a href="http://www.ul.ie/about-ul/directory-of-services/" title="">A-Z Directory</a></li>
+<li class=""><a href="http://www.ulsites.ul.ie/ulsites/#quicklinks" title="">Quicklinks</a></li>
+</ul></div>
+  </div>
+</div>
+ </div>
+ 
+								 </div>
+													</div>
+						<div class="col-sm-12 col-xs-12 third np" style="margin-top:10px;">
+							<div class="row">
+								
+<form class="search-form search-block-form" action="http://ulsites.ul.ie/csis/node/56441" method="post" id="search-block-form" accept-charset="UTF-8">
+	<div class="col-sm-6 col-xs-7 npl">
+		<div class="search">
+			<input type="text" id="sterm" name="term" size="40" value="" maxlength="255" class="form-control search-query sterm" placeholder="Search...">
+	    </div>
+	</div>
+	<div class="col-sm-2 col-xs-2 npr npl">
+		<input type="radio" value="option1" id="optionsRadios1" class="optionsRadios1" name="optionsRadios" checked>
+		<label for="optionsRadios1">Entire UL</label>
+	</div>
+	<div class="col-sm-4 col-xs-3 npr">
+		<input type="radio" value="option2" id="optionsRadios2" class="optionsRadios2" name="optionsRadios" >
+		<label for="optionsRadios2">Current site</label>
+	</div>
+	
+</form>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="tophead-mobile" class="row">
+	<div class="col-sm-12 col-xs-12 tophead-cont">
+		<div class="wrap">
+			<div class="row">
+				<div class="col-sm-6 col-xs-6 left npl npr" style="line-height: 45px;">
+					<a href="http://www.ul.ie">
+						<img src="http://ulsites.ul.ie/csis/themes/ul/images/logo.png" alt=""/>
+					</a>
+				</div>
+				<div class="col-sm-6 col-xs-6 right npr">
+					<div class="row">
+						<div class="col-xs-12 npl npr">
+							<div class="row">
+								<div class="col-xs-6 np">
+									<ul class="btns">
+										<li>
+											<a class="mmenu1"><img src="http://ulsites.ul.ie/csis/themes/ul/images/mobilemenu-icon.png" alt="Menu icon"/></a>
+										</li>
+										<li>
+											<a class="mmenu2"><img src="http://ulsites.ul.ie/csis/themes/ul/images/mobilemenu-search.png" alt="Search icon"/></a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xs-6 np">
+									<ul class="langs"><li>
+                        <a style="color:#D40000;" href="/csis/?lang=en" title="ENGLISH">ENGLISH</a>
+                      </li><li class="divide">|</li><li>
+                        <a  href="/csis/?lang=ga" title="GAEILGE">GAEILGE</a>
+                      </li></ul>								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mobilesearch_cont menus_container">
+				<div class="col-xs-12">
+					<form class="search-form search-block-form" action="http://ulsites.ul.ie/csis/search/node" method="post" accept-charset="UTF-8">
+	<div class="row">
+		<div class="col-xs-12 np" style="margin-bottom:10px;">
+			<div class="input-group add-on">
+		     <input type="text" id="sterm2" name="term" size="40" value="" maxlength="255" class="form-control search-query sterm" placeholder="Search...">
+	        
+		      <div class="input-group-btn">
+		        <button class="btn btn-default" type="submit"><img src="http://ulsites.ul.ie/csis/themes/ul/images/search-icon.png" alt="Search icon"/></button>
+		      </div>
+		    </div>
+			
+		</div>
+		<div class="col-xs-3 np">
+        	<input type="radio" value="option1" id="optionsRadios12" class="optionsRadios1" name="optionsRadios">
+        	<label for="optionsRadios12">Entire UL</label>
+		</div>
+		<div class="col-xs-9 npl">
+        	<input type="radio" value="option2" id="optionsRadios22" class="optionsRadios2" name="optionsRadios" checked>
+        	<label for="optionsRadios22">Current site</label>
+		</div>
+	</div>
+</form>				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row" id="head">
+	<div class="col-sm-12">
+		<div class="wrap">
+			<div class="row">
+				<div class="col-sm-12 np">
+											<div class="navmenu-region">
+							<span class="firstdivide"></span>
+							 <div class="region region-navmenu">
+    <div id="block-menu-block-2" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="mainmenu nav nav-justified"><li class=""><a href="http://www.ul.ie" title="Homepage of the University of Limerick">Home</a></li>
+<li class=""><a href="http://www.ul.ie/study-at-ul/" title="">Study at UL</a></li>
+<li class=""><a href="http://www.ul.ie/research" title="">Research</a></li>
+<li class=""><a href="http://www.ul.ie/industry-business" title="">Enterprise &amp; Innovation</a></li>
+<li class=""><a href="http://www.ul.ie/ul-campus/" title="">UL Campus</a></li>
+<li class=""><a href="http://www.ul.ie/about-ul/" title="">About UL</a></li>
+</ul></div>
+  </div>
+</div>
+ </div>
+ 
+						 </div>
+									</div>
+			</div>
+		</div>
+	</div>
+</div>        <div class="row" id="page">
+        <div class="col-sm-12">
+            <div class="wrap">
+                <div class="row menus_container">
+                    <div class="col-sm-12 pagetitle">
+                        <h1>Computer Science & Information Systems</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-10 col-xs-12 np">
+                                                    <div id="breadcrumbs"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/csis/" class="active">Home</a></div></div>
+                                            </div>
+                    <div class="col-sm-1 col-xs-3 nodisplay-mobile nodisplay-tablet" style="padding:7px 15px !important;">
+                                                     <div class="region region-breadcrumb">
+    <div id="block-print-anything-print-anything-link" class="block block-print-anything">
+
+    
+  <div class="content">
+    <div id ="print-anything-link" class="print-anything-link"><a href="javascript:void(0);">Print</a></div>  </div>
+</div>
+ </div>
+ 
+                                            </div>
+                    <div class="col-sm-1 col-xs-3 textsize">
+                        <ul>
+                            <li><a class="small">A</a></li>
+                            <li><a class="medium">A</a></li>
+                            <li><a class="big">A</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row menus_container">
+                    <div class="col-xs-12 np">
+                        <div class="menus_cont">
+                            <div class="navmenu_mobile" id="topmenu_mobile2"></div>
+                            <div class="topmenu_mobile" id="topmenu_mobile1"></div>
+                        </div>
+                    </div>
+                </div>
+                                    <div class="row">
+                        <div class="col-sm-12 np">
+                            <div class="region region-carousel nodisplay-mobile nodisplay-tablet">
+                            			    </div>
+                            <div class="row" id="post">
+                                <div class="leftmenu1">
+                                    <button type="button" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-align-justify"></span> Left menu
+                                    </button>
+                                </div>
+                                <div id="toprint">
+                                    <div class="col-sm-3 left leftmenu1_cont">
+                                                                                    <div id="leftmenu-region">
+                                                 <div class="region region-leftmenu">
+    <div id="block-multiblock-6121" class="block block-multiblock">
+
+    
+  <div class="content">
+    <div class="item pictureonly" style=""><img src="http://ulsites.ul.ie/csis/sites/default/files/modules/csis_logo2.png" alt="Department of Computer Science & Information Systems"/></div>  </div>
+</div>
+<div id="block-menu-block-79" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-79 menu-name-menu-left-menu-csis parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix"><li class="active"><a href="/csis/" title="" class="active">Home</a></li>
+<li class=""><a href="/csis/undergraduate-courses-5" title="">Undergraduate</a></li>
+<li class=""><a href="/csis/postgraduate" title="">Postgraduate</a></li>
+<li class=""><a href="/csis/international-students-2" title="The CSIS Department welcomes applications from non-EU students (International Students) for all of our undergraduate and postgraduate programmes.
+
+">International Education</a></li>
+<li class=""><a href="http://ulsites.ul.ie/admissions/node/29831" title="Information for Mature Students">Mature Students</a></li>
+<li class=""><a href="/csis/industry-1" title="">Industry</a></li>
+<li class=""><a href="/csis/staff-8" title="">Staff</a><ul class="menu clearfix"><li class=""><a href="/csis/admin-staff" title="">Administration Staff</a></li>
+<li class=""><a href="/csis/faculty-0" title="">Faculty Members</a></li>
+<li class=""><a href="/csis/technical-staff-1" title="">Technical Staff</a></li>
+</ul></li>
+<li class=""><a href="/csis/contact-details-2" title="">Contact Details</a><ul class="menu clearfix"><li class=""><a href="/csis/directions-ul" title="">Directions to the University of Limerick</a></li>
+</ul></li>
+</ul></div>
+  </div>
+</div>
+<div id="block-multiblock-6091" class="block block-multiblock">
+
+    
+  <div class="content">
+    <div class="panel-group accordion" id="accordion_6091"><div class="panel panel-default">
+							<a class="panel-heading " data-toggle="collapse" data-parent="#accordion_6091" href="#accordion_57391_6091" style="display: block;">
+							  <span class="arrowstate"></span>
+							  <h4 class="panel-title">Follow CSIS on...</h4>
+							</a><div id="accordion_57391_6091" class="panel-collapse collapse in"><div class="panel-body full-html-content"> <p class="rtecenter"><a href="http://www.facebook.com/CSIS.UL.IE" target="_blank"><img alt="Facebook" src="/sites/default/files//fb_icon_0.png" /></a>  <a href="http://twitter.com/#!/csisul" target="_blank"><img alt="Twitter" src="/sites/default/files//tw_icon_0.png" /></a>  <a href="https://vimeo.com/csisul" target="_blank"><img alt="Vimeo" src="/csis/sites/default/files/vimeo-icon-logo.png" /></a>  </p>
+ </div>
+				    </div>
+				  </div></div>  </div>
+</div>
+ </div>
+ 
+                                            </div>
+                                                                            </div>
+
+                                                                            <div class="tabs">
+                                                                                    </div>
+                                                                        	<div class="col-sm-6 content">
+		
+		<h1>CSIS - Computing for Life</h1>
+
+		
+				<div class="full-html-content"><p>The CSIS department is a department&nbsp;in the <a href="http://scieng.ul.ie" target="_blank">Faculty of Science and Engineering</a>. Our teaching and research activities focus on a wide variety of digital disciplines including human centred computing, music technology, software engineering, software localisation, and bio-inspired intelligent systems.&nbsp;</p>
+
+<p>We offer a variety of undergraduate and postgraduate programmes covering the digital disciplines. &nbsp;These include common entry undergraduate programmes in <a href="http://www3.ul.ie/courses/ComputingTechnologies.php" target="_blank">Computing Technologies</a> and <a href="http://www3.ul.ie/courses/CreativeMedia.php" target="_blank">Creative Media and Interaction</a>. &nbsp;We also offer long-established postgraduate programmes in these disciplines and facilitate a <a href="http://www.ul.ie/graduateschool/course/structured-phd-programme-phd-computer-science-information-systems" target="_blank">structured PhD in Computer Science &amp; Information Systems</a>.</p>
+
+<p>&nbsp;</p>
+</div>		<br/>
+
+		<div class="row">
+                                <div class="col-sm-12 np">
+                                    <div id="below-content-region"><div id="block-multiblock-6081" class="block block-multiblock">
+
+    
+  <div class="content">
+    <div class="panel-group accordion" id="accordion_6081"><div class="panel panel-default">
+							<a class="panel-heading " data-toggle="collapse" data-parent="#accordion_6081" href="#accordion_57381_6081" style="display: block;">
+							  <span class="arrowstate"></span>
+							  <h4 class="panel-title">Research Centres</h4>
+							</a><div id="accordion_57381_6081" class="panel-collapse collapse in"><div class="panel-body full-html-content"> <p><a href="http://lero.ie/" style="line-height: 20.8px;" target="_blank"><img alt="LERO Research Centre" src="/csis/sites/default/files/csis-lero.png" style="height:57px; width:85px" /></a> <a href="http://bds.ul.ie/" style="line-height: 20.8px;" target="_blank"><img alt="Biocomputing &amp; Development Systems Group" src="/csis/sites/default/files/csis-ge.png" style="height:57px; width:85px" /></a> <a href="http://www.localisation.ie/" style="line-height: 20.8px;" target="_blank"><img alt="Localisation Research Centre" src="/csis/sites/default/files/csis-lrc_1.png" style="height:57px; width:82px" /></a> <a href="http://www.idc.ul.ie/" style="line-height: 20.8px;" target="_blank"><img alt="Interaction Design Centre" src="/csis/sites/default/files/csis-idc_1.png" style="height:57px; width:82px" /></a> <a href="http://www.dmarc.ie/" target="_blank"><img alt="Digital Media Arts Research Centre" src="/csis/sites/default/files/csis-ccmcm_1.png" style="height:58px; width:91px" /></a>    </p>
+ </div>
+				    </div>
+				  </div></div>  </div>
+</div>
+
+                                    </div>
+                                </div>
+                            </div>
+	</div>
+<div class="col-sm-3 right"><div id="block-multiblock-6101" class="block block-multiblock">
+
+    
+  <div class="content">
+    <div class="item mod-sidebar-quicklinks">
+
+						<h3>Courses @ CSIS</h3>
+
+						<ul><li><a href="http://ulsites.ul.ie/csis/undergraduate-courses-5" >Undergraduate Courses</a></li><li><a href="http://www.ulsites.ul.ie/csis/postgraduate" >Postgraduate Courses</a></li></ul></div>  </div>
+</div>
+<div id="block-multiblock-6111" class="block block-multiblock">
+
+    
+  <div class="content">
+    <div class="item mod-picture-caption"><div class="pics"><img src="http://ulsites.ul.ie/csis/sites/default/files/csis-ul-library-building.jpg" class="captionpic curr" alt="UL Library"><img src="http://ulsites.ul.ie/csis/sites/default/files/csis-ul-sports-centre.JPG" class="captionpic " alt="UL Arena Sports Centre"><img src="http://ulsites.ul.ie/csis/sites/default/files/csis-ul-water.jpg" class="captionpic " alt="UL Foundation Building"></div>
+						<div class="caption">
+							<i class="angle"></i>
+							
+							<div class="spans">
+								<div class="row">
+								<div class="col-sm-9" style="padding:0 !important;"><span class="curr">UL Library</span><span class="">UL Arena</span><span class="">UL Foundation Building</span></div><div class="col-sm-3 arrows np" style="text-align:right;">
+								<a class="leftarrow"><img src="http://ulsites.ul.ie/csis/themes/ul/images/leftarrow.png" alt="Left arrow"></a>
+								<a class="rightarrow"><img src="http://ulsites.ul.ie/csis/themes/ul/images/rightarrow.png" alt="Right arrow"></a>
+					</div>
+				</div>
+							</div>
+						</div>
+				</div>  </div>
+</div>
+</div>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                <div class="row">
+                    <div class="col-sm-12 np">
+                                                <div class="row">
+                            <div class="col-sm-12 np">
+
+                                <div class="modules">
+                                    <div class="row">
+                                                                                    <div id="frontboxes-region">
+                                                 <div class="region region-frontboxes">
+    <div id="block-multiblock-6211" class="block block-multiblock">
+
+    
+  <div class="content">
+    <div class="col-sm-4"><div class="module eventsmodule">
+
+					<h3>Events</h3>
+
+					<div class="itemscontainer"><div class="items"><div class="item first row">
+
+						<div class="col-sm-4 col-xs-2">
+
+							<a href="/csis/concert-hocket-pagan"><img style="max-height: 75px;" src="http://ulsites.ul.ie/csis/sites/default/files/kerry-and-miller%20thumb.jpg" alt="Hocket Pagan"></a>
+
+						</div>
+
+						<div class="col-sm-8 col-xs-10">
+              <p>April 03: Hocket Pagan Concert</p>
+              
+							<a href="/csis/concert-hocket-pagan" class="readmore">Read more</a>
+
+						</div>
+
+					</div><div class="item  row">
+
+						<div class="col-sm-4 col-xs-2">
+
+							<a href="/csis/limitations-computers-musical-tools"><img style="max-height: 75px;" src="http://ulsites.ul.ie/csis/sites/default/files/miller_puckette_0.jpg" alt="Miller Puckette"></a>
+
+						</div>
+
+						<div class="col-sm-8 col-xs-10">
+              <p>April 03: Limitations of computers as musical...</p>
+              
+							<a href="/csis/limitations-computers-musical-tools" class="readmore">Read more</a>
+
+						</div>
+
+					</div></div></div>
+
+					<div class="bottom">
+
+						<span>Read More</span>
+
+						<div class="buttons pull-right">
+
+							<a class="arrowdown"><img src="http://ulsites.ul.ie/csis/themes/ul/images/module_down.png" alt="Move down"></a>
+
+							<a class="arrowup"><img src="http://ulsites.ul.ie/csis/themes/ul/images/module_up.png" alt="Move up"></a>
+
+						</div>
+
+					</div>
+
+				</div></div>  </div>
+</div>
+<div id="block-multiblock-6221" class="block block-multiblock">
+
+    
+  <div class="content">
+    <div class="col-sm-4"><div class="module newsmodule">
+
+						  <h3>Latest Publications</h3>
+
+						  <div class="itemscontainer"><div class="items"><div class="item first row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> ​An Empirical Analysis of Inform...</p>
+
+											  <a href="/csis/2009-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> A Framework for Evaluating Compreh...</p>
+
+											  <a href="/csis/2008-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item last row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> UL-CSIS-07-02 - An Accelerometer a...</p>
+
+											  <a href="/csis/2007-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> UL-CSIS-06-03 - A Practical Applic...</p>
+
+											  <a href="/csis/2006-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> An Analysis of the Use of Friends ...</p>
+
+											  <a href="/csis/2005-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> Investigations into Upward Planar ...</p>
+
+											  <a href="/csis/2004-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> 10th Annual Research Conference, 2...</p>
+
+											  <a href="/csis/2003-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> Graph Layering by Promotion of Nod...</p>
+
+											  <a href="/csis/2002-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> An Optimal Solution to Dimension-C...</p>
+
+											  <a href="/csis/2001-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> 7th Annual Research Conference, 20...</p>
+
+											  <a href="/csis/2000-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> Department of Computer Science and...</p>
+
+											  <a href="/csis/1999-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> Characterisation of Level Non-Plan...</p>
+
+											  <a href="/csis/1998-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> CSIS Research Seminar Series - Spr...</p>
+
+											  <a href="/csis/1997-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> Technical Report UL-CSIS-96-5
+Depa...</p>
+
+											  <a href="/csis/1996-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> A Programmer’s Environment for M...</p>
+
+											  <a href="/csis/1995-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> The Role of AI in Requirements Eng...</p>
+
+											  <a href="/csis/1994-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> The Role of Natural Language in Re...</p>
+
+											  <a href="/csis/1993-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> A Prototype Syntax Checker for Ger...</p>
+
+											  <a href="/csis/1991-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div><div class="item  row">
+
+										  <div class="col-sm-12 col-xs-12">
+											  
+											  
+											  
+											  
+                        <p> An Annotated Bibliography of the C...</p>
+
+											  <a href="/csis/1990-technical-reports" class="readmore">Read more</a>
+
+										  </div>
+
+								  </div></div></div>
+
+						  <div class="bottom">
+
+							  <span>Read More</span>
+
+							  <div class="buttons pull-right">
+
+								  <a class="arrowdown"><img src="http://ulsites.ul.ie/csis/themes/ul/images/module_down.png" alt="Down arrow"></a>
+
+								  <a class="arrowup"><img src="http://ulsites.ul.ie/csis/themes/ul/images/module_up.png" alt="Up arrow"></a>
+
+							  </div>
+
+						  </div>
+
+					  </div></div>  </div>
+</div>
+<div id="block-multiblock-6231" class="block block-multiblock">
+
+    
+  <div class="content">
+    <div class="col-sm-4">
+
+						<div class="module newsmodule">
+
+					<h3>News</h3>
+
+					<div class="itemscontainer"><div class="items"><div class="item first row">
+
+								<div class="col-sm-4 col-xs-2">
+
+									<a href="/csis/csis-lecturer-brenda-romero-receive-bafta-special-award"><img style="max-height: 75px;" src="http://ulsites.ul.ie/csis/sites/default/files/bafta.jpg" alt="Brenda Romero To Receive special BAFTA award"></a>
+
+								</div>
+
+								<div class="col-sm-8 col-xs-10">
+                  <p>CSIS Lecturer Brenda Romero To Receive BAFTA ...</p>
+           
+									<a href="/csis/csis-lecturer-brenda-romero-receive-bafta-special-award" class="readmore">Read more</a>
+
+								</div>
+
+							</div><div class="item  row">
+
+								<div class="col-sm-4 col-xs-2">
+
+									<a href="/csis/games-fleadh-games-studio-overall-winners-ul-trash-team-racing"><img style="max-height: 75px;" src="http://ulsites.ul.ie/csis/sites/default/files/fleadh.jpg" alt="UL Wins Games Fleadh Games Studio"></a>
+
+								</div>
+
+								<div class="col-sm-8 col-xs-10">
+                  <p>Games Fleadh Games Studio overall winners - U...</p>
+           
+									<a href="/csis/games-fleadh-games-studio-overall-winners-ul-trash-team-racing" class="readmore">Read more</a>
+
+								</div>
+
+							</div></div></div>
+
+					<div class="bottom">
+
+						<span>Read More</span>
+
+						<div class="buttons pull-right">
+
+							<a class="arrowdown"><img src="http://ulsites.ul.ie/csis/themes/ul/images/module_down.png" alt="Move down"></a>
+
+							<a class="arrowup"><img src="http://ulsites.ul.ie/csis/themes/ul/images/module_up.png" alt="Move up"></a>
+
+						</div>
+
+					</div>
+
+				</div></div>  </div>
+</div>
+ </div>
+ 
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 np">
+                                <div class="modules">
+                                    <div class="row">
+                                                                            </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 np">
+                                <div class="modules">
+                                    <div class="row">
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="footer">
+        <div class="col-sm-12">
+            <div class="wrap">
+                <div class="row">
+                    <div class="col-sm-6 npl left">
+                        <ul><li><a href="http://www.ul.ie/about-ul/contact-information/">Contact UL</a></li><li class="divide">|</li><li><a href="http://www.ul.ie/privacy.pdf">Privacy & Cookie Statement</a></li><li class="divide">|</li><li><a href="http://www.ul.ie/disclaimer.pdf">Disclaimer</a></li><li class="divide">|</li><li><a href="http://www.ul.ie/ul-campus/campus-maps">Location</a></li><li class="divide">|</li><li><a href="http://ulsites.ul.ie/navigational-sitemap">Sitemap</a></li><li class="divide">|</li></ul>                                                     <div class="region region-footer">
+    <div id="block-footer-text-footer-text" class="block block-footer-text">
+
+    
+  <div class="content">
+    <h3></h3><div><p><a href="http://www.ul.ie/hr"><img alt="Athena Swan" src="/sites/default/files//athena_bronze_hp.jpg" style="height:65px; width:108px" /></a>&nbsp; &nbsp;<img alt="QS Stars" src="/sites/default/files//QS_Stars_5Star_2015_new%20jpeg.jpg" style="height:63px; width:109px" /></p>
+</div>  </div>
+</div>
+ </div>
+ 
+                                               <!-- <ul><li><a href="http://www.ul.ie/about-ul/contact-information/">Contact UL</a></li><li class="divide">|</li><li><a href="http://www.ul.ie/privacy.pdf">Privacy & Cookie Statement</a></li><li class="divide">|</li><li><a href="http://www.ul.ie/disclaimer.pdf">Disclaimer</a></li><li class="divide">|</li><li><a href="http://www.ul.ie/ul-campus/campus-maps">Location</a></li><li class="divide">|</li><li><a href="http://ulsites.ul.ie/navigational-sitemap">Sitemap</a></li><li class="divide">|</li></ul>-->
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 npr right">
+                        <h3>Follow UL on...</h3>
+                         <div class="region region-footer-socials">
+    <div id="block-socials-socials" class="block block-socials">
+
+    
+  <div class="content">
+    <ul class="socials"><li><a href="https://www.linkedin.com/company/university-of-limerick?trk=hb_tab_compy_id_166647" target="_blank"><img src="http://ulsites.ul.ie/csis/themes/ul/images/ln_icon.png" alt="University of Limerick LinkedIn"></a></li><li><a href="https://www.facebook.com/universityoflimerick" target="_blank"><img src="http://ulsites.ul.ie/csis/themes/ul/images/fb_icon.png" alt="University of Limerick Facebook"></a></li><li><a href="https://twitter.com/UL" target="_blank"><img src="http://ulsites.ul.ie/csis/themes/ul/images/tw_icon.png" alt="University of Limerick on Twitter"></a></li><li><a href="https://www.youtube.com/user/UniversityofLimerick" target="_blank"><img src="http://ulsites.ul.ie/csis/themes/ul/images/yt_icon.png" alt="University of Limerick YouTube Channel"></a></li></ul>  </div>
+</div>
+ </div>
+ 
+                        <img src="http://ulsites.ul.ie/csis/themes/ul/images/footer_right_img.png" style="margin-top:30px;max-width: 100%;" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><script type="text/javascript" src="http://ulsites.ul.ie/csis/themes/ul/js/app.js"></script><script type="text/javascript" src="http://ulsites.ul.ie/csis/themes/ul/js/home_page.js"></script>    <script>
+        var breadcrumb_html = ' &raquo; <a href="http://ulsites.ul.ie/csis" title="">Computer Science &amp; Information Systems</a>';
+        App.subsiteBreadcrumbs('1', breadcrumb_html, 'http://www.ul.ie');
+    </script>
+
+<SCRIPT type="text/javascript">
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-9296364-3']);
+                    _gaq.push(['_setDomainName', 'ul.ie']);
+                    _gaq.push(['_addIgnoredRef', 'ul.ie']);
+                    _gaq.push(['_setAllowLinker', true]);
+                    _gaq.push(['_trackPageview']);
+                    (function () {
+                        var ga = document.createElement('script');
+                        ga.type = 'text/javascript';
+                        ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(ga, s);
+                    })();
+                  </SCRIPT><!-- Google Tag Manager -->
+          <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NN8NQV"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-NN8NQV');</script>
+          <!-- End Google Tag Manager -->
+<div class="item mod-sidebar-quicklinks no-display" id="quicklinks_modal">
+    <h3>Quicklinks</h3>
+    <ul>
+                    <li>
+                <a href="http://ul.ie/about-ul/directory-of-services/" target="_blank">A-Z Directory</a>
+            </li>
+                    <li>
+                <a href="http://www2.ul.ie/web/WWW/Services/Academic_Calendar" target="_blank">Academic Calendar</a>
+            </li>
+                    <li>
+                <a href="http://www2.ul.ie/web/WWW/Services/Information_Technology_Division/Staff_Computing/Accessing_UL_IT_from_home" target="_blank">Access Resources Off Campus</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/alerts/" target="_blank">Alerts</a>
+            </li>
+                    <li>
+                <a href="http://www.ulaa.ul.ie" target="_blank">Alumni</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/ul-campus/campus-maps/" target="_blank">Campus Map</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/staff-search" target="_blank">Campus Phone Directory</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/about-ul/contact-information/" target="_blank">Contact Information</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/study-at-ul" target="_blank">Courses / Programmes</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/about-ul/academic-faculties/" target="_blank">Faculties & Departments</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/ul-campus/campus-maps/travelling-to-the-university/" target="_blank">Finding the University</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/careers/careers/employers/" target="_blank">Graduate Recruitment</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/ceremonies" target="_blank">Graduate Ceremonies</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/library" target="_blank">Library</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/graduateschool" target="_blank">Postgraduate Programmes</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/studentaffairs" target="_blank">Student Affairs Division</a>
+            </li>
+                    <li>
+                <a href="http://www.ulfoundation.com/" target="_blank">UL Foundation</a>
+            </li>
+                    <li>
+                <a href="http://www.ul.ie/courses" target="_blank">Undergraduate Programmes</a>
+            </li>
+            </ul>
+</div>
+
+
+</body>
+</html>
